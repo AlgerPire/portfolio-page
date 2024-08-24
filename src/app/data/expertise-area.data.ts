@@ -4,35 +4,35 @@ import { site, api, mobile, monitor, speed, search } from '@icon/regular.icon'
 
 const expertiseAreaData: ExpertiseAreaSchema[] = [
   {
-    icon: site,
-    percent: '90%',
-    name: 'Web Development'
-  },
-  {
     icon: api,
-    percent: '60%',
-    name: 'API Development'
+    percent: 'Back-End Development',
+    name: 'Java / Spring Boot '
   },
   {
-    icon: mobile,
-    percent: '70%',
-    name: 'Mobile Development'
+    icon: site,
+    percent: 'Front-End Development',
+    name: 'TypeScript / Angular'
   },
+  // {
+  //   icon: mobile,
+  //   percent: '70%',
+  //   name: 'Mobile Development'
+  // },
   {
     icon: monitor,
-    percent: '30%',
-    name: 'UX/UI Design'
+    percent: 'Databases',
+    name: 'PostgreSQL / Firebase',
   },
-  {
-    icon: speed,
-    percent: '75%',
-    name: 'Performance Optimization'
-  },
-  {
-    icon: search,
-    percent: '20%',
-    name: 'Unit Testing'
-  },
+  // {
+  //   icon: speed,
+  //   percent: '75%',
+  //   name: 'Performance Optimization'
+  // },
+  // {
+  //   icon: search,
+  //   percent: '20%',
+  //   name: 'Unit Testing'
+  // },
 ]
 
 export default expertiseAreaData

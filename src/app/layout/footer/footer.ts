@@ -24,7 +24,7 @@ import { Subscription, interval } from 'rxjs';
     >
       <div class="flex flex-row gap-3">
         <logo/>
-        <span>{{ profile().name }} - {{profile().pronouns}}</span>
+        <span>{{ profile().name }} - Software Developer</span>
       </div>
         <div class="flex items-center gap-1">
           <icon

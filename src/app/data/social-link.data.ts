@@ -7,26 +7,20 @@ const socialLinkData: SocialLinkSchema[] = [
   {
     name: 'Github',
     path: github,
-    link: 'https://github.com/marckevinflores',
+    link: 'https://github.com/AlgerPire',
     color: '#c3c3c3',
   },
   {
     name: 'LinkedIn',
     path: linkedin,
-    link: 'https://linkedin.com/in/marckevinflores',
+    link: 'https://www.linkedin.com/in/alger-pire-aa3327217/',
     color: '#1469C7',
   },
   {
     name: 'Message',
     path: envelope,
-    link: 'mailto:marc@kevinflor.es?subject=Hi Marc Kevin!',
+    link: 'mailto:algerpire0@gmail.com?subject=Hi Alger!',
     color: '#e74c3c',
-  },
-  {
-    name: 'Instagram',
-    path: instagram,
-    link: 'https://instagram.com/mrckvnflrs',
-    color: '#E52765',
   },
 ];
 
