@@ -21,7 +21,7 @@ const expertiseAreaData: ExpertiseAreaSchema[] = [
   {
     icon: monitor,
     percent: 'Databases',
-    name: 'PostgreSQL / Firebase',
+    name: 'SQL / NoSQL',
   },
   // {
   //   icon: speed,
