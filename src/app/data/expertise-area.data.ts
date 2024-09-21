@@ -1,5 +1,17 @@
 import { ExpertiseAreaSchema } from "@data/schema/expertise-area.schema";
-import { site, api, mobile, monitor, speed, search } from '@icon/regular.icon'
+import {
+  site,
+  api,
+  mobile,
+  monitor,
+  speed,
+  search,
+  chevronUp,
+  learn,
+  debug,
+  database,
+  security
+} from '@icon/regular.icon'
 
 
 const expertiseAreaData: ExpertiseAreaSchema[] = [
@@ -19,9 +31,19 @@ const expertiseAreaData: ExpertiseAreaSchema[] = [
   //   name: 'Mobile Development'
   // },
   {
-    icon: monitor,
+    icon: database,
     percent: 'Databases',
     name: 'SQL / NoSQL',
+  },
+  {
+    icon: debug,
+    percent: 'Testing',
+    name: 'JUnit / Mockito',
+  },
+  {
+    icon: security,
+    percent: 'Security',
+    name: 'JWT / OAuth',
   },
   // {
   //   icon: speed,

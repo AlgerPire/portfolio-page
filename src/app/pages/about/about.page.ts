@@ -6,7 +6,21 @@ import profileData from '@data/profile.data';
 import { Music } from '@shared/components/music/music';
 import { Watch } from '@shared/components/watch/watch';
 import {Icon} from "@shared/components/icon/icon";
-import {chevronUp, clock, learn, moon, search, site, site2, speed, sun} from "@icon/regular.icon";
+import {
+  chevronUp,
+  clock,
+  holiday,
+  learn,
+  monitor,
+  moon,
+  search,
+  site,
+  site2,
+  speed,
+  story,
+  sun,
+  work
+} from "@icon/regular.icon";
 
 @Component({
   selector: 'about',
@@ -60,35 +74,34 @@ export class AboutPage {
   public aboutDetails = [
     {
       title: 'What I Do',
-      desc: `I've worked on a variety of projects, ranging from
-      mobile apps and web development to optimizing performance, writing clean code, and emphasizing good design
-      principles. I take pride in my attention to detail and commitment to creating efficient, well-designed solutions
-      that meet both user needs and industry standards. I'm your go-to person for JavaScript frameworks and ensuring
-      the overall quality of software development projects.`,
-      icon: site
+      desc: `With two years of hands-on experience, I have contributed to a  variety of projects predominantly using
+       Spring Boot and Angular. My work has involved both enhancing and maintaining existing applications, as well as
+        developing new projects from the ground up. I have experience in both monolithic and microservices architectures,
+         and I’ve been responsible for implementing secure applications with Spring Security. Additionally, I have
+         prepared applications for cloud deployment using Docker and Kubernetes, ensuring they are scalable and ready
+          for modern cloud environments.`,
+      icon: monitor
     },
     {
       title: 'Always Learning',
-      desc: `I'm always eager to learn new things. Whether
-      it's staying updated on the latest technologies or exploring different coding techniques, I enjoy expanding my
-      knowledge to grow as a developer.`,
+      desc: `My family and friends often refer to me as a workaholic, but I consider myself more of a self-development
+      enthusiast. I’m always seeking opportunities to enhance my skills, whether by learning new tools and technologies
+      or refining my existing knowledge with the latest methodologies. Coding has always been my passion, and I genuinely
+      enjoy dedicating my time to it.`,
       icon: search
     },
     {
-      title: 'Off-Duty Fun',
-      desc: `During my off-duty hours, I find joy in coding, exploring new aspects of coding, and staying updated by reading
-      the latest blogs on technology. I also enjoy playing games on my phone, watching videos, listening to popular
-      songs, and taking refreshing walks outside. It's important for me to spend quality time with my family and
-      friends.`,
-      icon: clock
+      title: 'How it started',
+      desc: ` I have been fascinated by how computers work since the age of 10, and I wrote my first line of code at 13.
+      By the time I was 15, I made the decision to attend a specialized high school focused on electronics and software
+      development. Since then, I have consistently pursued learning and coding, transforming my ideas into real-world projects.`,
+      icon: story
     },
     {
-      title: 'Why I Code',
-      desc: `I code because it allows me to turn ideas into
-      reality. It's a creative outlet that lets me build useful and innovative solutions. Coding challenges me to
-      solve problems and continuously improve my skills. Ultimately, it's my way of making a positive impact through
-      technology.`,
-      icon: speed
+      title: 'On my off time',
+      desc: `Outside of coding, I enjoy watching football and avidly support my favorite team, Real Madrid, in all their
+      matches. I also like to stay active by walking, playing football, and watching a movie in cinema. `,
+      icon: holiday
     }
   ];
 
