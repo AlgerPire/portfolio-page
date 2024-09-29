@@ -15,7 +15,7 @@ import { OtherProject } from '@pages/project/components/other-project'
   template: `
     <h1
       class="text-brand-primary mt-2 text-center text-3xl font-semibold tracking-tight lg:text-4xl lg:leading-snug dark:text-white">
-      Projects
+      Personal Projects
     </h1>
     <feature-project/>
     <!-- <h1
