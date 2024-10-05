@@ -27,7 +27,8 @@ export class ManSorrow {
   darkModeService = inject(DarkModeService);
   platformCheck = inject(PlatformCheckService);
   isDark = computed(() => this.darkModeService.isDark())
-  extraPaths = [floor, sea, man, logo, plant]
+  extraPaths = [floor, sea, man, plant]
+  // extraPaths = [floor, sea, man, logo, plant]
 
   get starsPath()      { return this.generatePath(stars) }
   get moonPath()       { return this.generatePath(moon)  }
