@@ -1,3 +1,5 @@
+[algerpire.dev](https://algerpire.dev/)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./preview-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="./preview.png">
